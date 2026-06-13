@@ -5,7 +5,7 @@
     <Project Path="sample/Decoupler.Infrastructure/Decoupler.Infrastructure.csproj" />
     <Project Path="sample/Decoupler.WebApi\Decoupler.WebApi.csproj" />
   </Folder>
-  <Folder Name="/SolutionItems/">
+  <Folder Name="/Solution Items/">
     <File Path=".gitignore"/>
   </Folder>
   <Folder Name="/src/">
