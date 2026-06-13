@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Decoupler.Application\Decoupler.Application.csproj" />
+      <ProjectReference Include="..\Decoupler.Domain\Decoupler.Domain.csproj" />
+    </ItemGroup>
+    
+</Project>

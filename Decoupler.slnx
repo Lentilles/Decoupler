@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Sample/">
+    <Project Path="sample/Decoupler.Application/Decoupler.Application.csproj" />
+    <Project Path="sample/Decoupler.Domain/Decoupler.Domain.csproj" />
+    <Project Path="sample/Decoupler.Infrastructure/Decoupler.Infrastructure.csproj" />
+    <Project Path="sample/Decoupler.WebApi\Decoupler.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/SolutionItems/">
+    <File Path=".gitignore"/>
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Decoupler/Decoupler.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Decoupler.UnitTest/Decoupler.UnitTest.csproj" />
+  </Folder>
+</Solution>

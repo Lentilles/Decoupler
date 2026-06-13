@@ -1,0 +1,6 @@
+@Decoupler_HostAddress = http://localhost:5115
+
+GET {{Decoupler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
