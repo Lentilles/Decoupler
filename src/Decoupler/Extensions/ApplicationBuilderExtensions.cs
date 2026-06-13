@@ -9,6 +9,11 @@ public static class ApplicationBuilderExtensions
 {
     extension(IServiceCollection services)
     {
+        /// <summary>
+        /// Registers the Decoupler and all IRequestHandler implementations found in the specified assemblies.
+        /// </summary>
+        /// <param name="assemblies">Assemblies to scan for request handlers.</param>
+        /// <returns>The IServiceCollection so that additional services can be chained.</returns>
         public IServiceCollection AddDecouplerFromAssembly(params Assembly[] assemblies)
         {
             services.AddTransient<IDecoupler, DecouplerBase>();
