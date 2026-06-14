@@ -12,6 +12,6 @@
     <Project Path="src/Decoupler/Decoupler.csproj" />
   </Folder>
   <Folder Name="/Tests/">
-    <Project Path="Decoupler.UnitTest/Decoupler.UnitTest.csproj" />
+    <Project Path="tests/Decoupler.UnitTest/Decoupler.UnitTest.csproj" />
   </Folder>
 </Solution>

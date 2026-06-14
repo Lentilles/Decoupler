@@ -20,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\Decoupler\Decoupler.csproj" />
+      <ProjectReference Include="..\..\src\Decoupler\Decoupler.csproj" />
     </ItemGroup>
-
+    
 </Project>
